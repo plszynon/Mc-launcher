@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minecraft Server Launcher"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnStartAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="▶ Start Java + Bedrock + Tunel"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnStartJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start tylko Java"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnStartBedrock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start tylko Bedrock"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⏹ Zatrzymaj wszystko"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Gotowy."
+        android:fontFamily="monospace"
+        android:textSize="12sp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
